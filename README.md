@@ -7,11 +7,13 @@ Bootstrap Multi Email is a jQuery plugin providing a Twitter Bootstrap user inte
 ### Bower   
    
 Not added to the Bower Package Repository, yet. Use:   
-   
-`require : {
+
+```   
+require : {
    "bootstrap-multiEmail":"git@github.com:ThinkBigPartners/bootstrap-multiEmail.git"
-}`
-   
+}
+```
+
 ## Usage   
    
 ### Include JS and CSS   
