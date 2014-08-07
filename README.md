@@ -15,13 +15,14 @@ Not added to the Bower Package Repository, yet. Use:
 ## Usage   
    
 ### Include JS and CSS   
+```   
+<link href="/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.css">  
+<link href="/bower_components/bootstrap-multiEmail/src/bootstrap-multiEmail.css">
    
-`<link href="/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.css">`   
-`<link href="/bower_components/bootstrap-multiEmail/src/bootstrap-multiEmail.css">`
-   
-`<script src="/bower_components/jquery-validation/jquery.validate.js"> //Optional`
-`<script src="/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js">`
-`<script src="/bower_components/bootstrap-multiEmail/src/bootstrap-multiEmail.js">`   
+<script src="/bower_components/jquery-validation/jquery.validate.js"> //Optional
+<script src="/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js">
+<script src="/bower_components/bootstrap-multiEmail/src/bootstrap-multiEmail.js">
+```
    
    
 ### HTML5 Data Instantiation   
@@ -30,8 +31,10 @@ Just add `data-role="multiemail"` to your input, select, or textarea element to 
    
    
 ### Manual Instantiation   
-   
-`$('input').multiEmail()`   
+
+```   
+$('input').multiEmail()
+```
    
 
 ## License   
